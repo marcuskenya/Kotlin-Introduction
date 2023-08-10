@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     println(age)
 
     var city:String= "Nairobi"
-    var idno:Int=1234654
+    var idno:Int=76543
 
 
 

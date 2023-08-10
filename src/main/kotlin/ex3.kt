@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     println("Enter ur marks")
-    var marks: Int = readLine()!!.toInt()
+    var marks:Int = readLine()!!.toInt()
     //    10-29 E
     //    30-39 D
     //    40-59 B
@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
         println("D")
     } else if (marks in 40..59) {
         println("B")
-    } else if (marks in 70.. 71) {
+    } else if (marks in 60.. 71) {
         println("B+")
     } else if (marks in  71..100) {
         println("A")
