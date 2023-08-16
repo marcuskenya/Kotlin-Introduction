@@ -1,0 +1,17 @@
+Greeting Program: Write a Kotlin program that asks the user for their name and then
+ prints a personalized greeting, like "Hello, [Name]!"
+
+Simple Calculator: Create a Kotlin program that takes two numbers and an operator (+, -, *, /) as input,
+ and then performs the corresponding operation and displays the result.
+
+Even or Odd Checker: Write a Kotlin function that takes an integer as input and determines whether
+ it's even or odd, then prints the result.
+
+List Manipulation: Create a Kotlin program that initializes a list of numbers, then adds
+all the even numbers from the list into a new list and prints it.
+
+Character Counter: Write a Kotlin function that takes a string as input and counts the
+number of occurrences of a specific character within the string, then displays the count.
+
+Vowel or Consonant Checker: Write a Kotlin function that takes a single character
+ (letter) as input and determines whether it's a vowel or a consonant. Print the result.
