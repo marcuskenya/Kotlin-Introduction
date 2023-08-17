@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
         print("Enter any character: ")
         var letter = readLine()!!.toString().trim()
 
-        if (letter != null && letter.length == 1) {
+        if (letter.isBlank() && letter.length == 1) {
             var character = letter[0]
             var result = VoORCon(character)
             println("The character '$character' is a $result.")

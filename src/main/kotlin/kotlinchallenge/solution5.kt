@@ -2,8 +2,11 @@ package kotlinchallenge
 
 fun main(args: Array<String>) {
 
-        var inputString = "Hello, how are you doing today?"
-        var targetChar = 'o'
+    println("Enter any word")
+        var inputString = readLine()!!.toString()
+
+    println("Which character do want to target?")
+        var targetChar = readLine()?.get(0)?:' '
 
         var occurrences = countcharacterinstances(inputString, targetChar)
 

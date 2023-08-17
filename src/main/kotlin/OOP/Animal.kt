@@ -10,7 +10,7 @@ open class Animal (colour:String,legs:String,breed:String,gender:String){
 
 }
 
-class Dog (name:String,) : Animal(colour = "White", legs = "four ",breed="German shepherd",gender = "Male") {
+class Dog (name:String) : Animal(colour = "White", legs = "four ",breed="German shepherd",gender = "Male") {
 
 
 }

@@ -1,7 +1,8 @@
 fun main(args: Array<String>) {
 
 
-
+sayhello()
+//   print(addnums(10,45))
    print(addnums(10,45))
 }
 
@@ -13,7 +14,7 @@ fun sayhello(){
 //    print(add)
 //}
 fun addnums (x:Int, y:Int):Int{
-    return x+y
+    return x*y
 
 }
 

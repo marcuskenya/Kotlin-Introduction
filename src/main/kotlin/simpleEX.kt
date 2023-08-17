@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
     //displays your age
 
     println("Enter the year you were born")
-    var yearborn:Int= readLine()!!.toInt()
+    var yearborn:Int= readln()!!.toInt()
 
     var currentyear=Calendar.getInstance().get(Calendar.YEAR)
 
